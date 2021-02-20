@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    height: 100vh;
+    overflow: hidden;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #555;
+    background: #ecf0f3;
+}
+.rest-div {
+    width: 430px;
+    height: 700px;
+    padding: 60px 35px 35px 35px;
+    border-radius: 40px;
+    background-color: #ecf0f3;
+    box-shadow: 13px 13px 20px #cbced1,
+                -13px -13px 20px #ffffff;
+}
+ h3 {
+    margin: 0 auto;
+    text-align: center;
+    color: #24cfaa;
+    text-shadow: 13px 13px 20px #ffffff;
+}
+.fields {
+    width: 100%;
+    padding: 75px 5px 5px 5px;
+}
+.fields input  {
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 18px;
+    color: #555;
+    padding: 20px 10px 20px;
+}
+ span  {
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 15px;
+    color: #555;
+    padding:  15px ;
+    margin-bottom: 0px;
+}
+a  {
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 15px;
+    color: #555;
+    padding:  15px ;
+    margin-bottom: 0px;
+    text-align: center;
+    padding-top: 20px;
+    text-decoration: none;
+    font-size: 20px;
+}
+.username,.password {
+    margin-bottom: 30px;
+    border-radius: 25px;
+    margin-top: 15px;
+    width: 100%;
+    box-shadow: inset 8px 8px 8px #cbced1,
+                inset -8px -8px 8px #ffffff;
+}
+p {
+    width: 100%;
+    margin-top: 15px;
+    text-align: center;
+}
+input[type = "submit"] {
+    outline: none;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    height: 60px;
+    border-radius: 30px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+    margin: 15px 0px;
+    background-color: #24cfaa;
+    border :solid 2px  #24cfaa;
+    box-shadow: 3px 3px 8px #b1b1b1,
+                -3px -3px 8px #ffffff;  
+                transition: 0.5s;
+
+}
+.login:hover{
+    background-color: #2fdbb6;
+    
+}
